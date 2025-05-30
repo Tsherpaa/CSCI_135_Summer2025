@@ -20,5 +20,6 @@ if (n2[i] >= 'a' && n2[i] <= 'z') {
 n2[i] = n2[i] - 32;
 }
 }
-std::cout << n1 << " " << n2;
+std::string UName = n1 + " " + n2; // Concatenation
+std::cout << UName;
 }
