@@ -29,6 +29,6 @@ ln[i] = ln[i]- 32; //turns lowercase to uppercase
 i++;
 }
 std::string Un = fn + ' ' + ln; // Concatenation
-std::cout << "Your name in uppercase is: " << Un;
+std::cout << "Transformed name: " << Un;
 }
 
