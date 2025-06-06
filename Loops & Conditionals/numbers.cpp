@@ -6,7 +6,7 @@ int snum = 4; //Hardcoded the secret number, 4, into the variable snum.
 int unum; //Initializes unum, user inputed number.
 
 /* 
-This while loop repeatedly checks if the user input(unum), is NOT equal to secret number(snum). 
+This while loop repeatedly checks if the user input(unum), is NOT equal to the secret number(snum). 
 If not equal, the block of code in the while loop will constantly run until the user inputs a number equal to the
 secret number.
 */ 
