@@ -11,12 +11,14 @@ int main () {
     std::string userinput;
     std::cout << "Enter a string to reverse: ";
     std::getline(std::cin, userinput);
-    std::string reversed = reversestring(userinput);
+    std::string revstring = reversestring(userinput);
+    std::cout << "Reversed: " << revstring << "\n" << std::endl;
 
     std::string userinput2;
     std::cout << "Enter a sentence: ";
     std::getline(std::cin, userinput2);
     int wordcount = sentencewordcount(userinput2);
+    std::cout << "Word count: " << wordcount << "\n" << std::endl;
 
     std::string userinput3;
     std::cout << "Enter a number: ";
@@ -54,7 +56,6 @@ std::string reversestring(std::string userinput) {
     for (int i = userinput.length() - 1; i >= 0; i--) {
         revstring += userinput[i];
     }
-    std::cout << "Reversed: " << revstring << "\n" << std::endl;
     return revstring;
 }
 
@@ -68,7 +69,6 @@ int sentencewordcount(std::string userinput2) {
                 wordcount = wordcount + 1;
              }
         }
-        std::cout << wordcount << "\n" << std::endl;
         return wordcount;
 }
 
