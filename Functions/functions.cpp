@@ -83,7 +83,7 @@ int sentencewordcount(std::string userinput2) {
         return wordcount;
 }
 
-//Checks if string is palindrome numbers from both ends and moving to the center
+//Checks if string is a palindrome by comparing numbers from both ends and moving to the center
 bool palendromecheck(std::string userinput3) {
     int left = 0; //Left most index
     int right = userinput3.length() - 1; //Rightmost index
