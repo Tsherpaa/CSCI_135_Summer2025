@@ -46,7 +46,7 @@ int main () {
     double sum = averagenum(numbers, 5); //Call the function and passes the array and size
     std::cout << "Average: " << sum << "\n" << std::endl;
 
-    //Takes userinput, converts it into farenheit by calling celsiustofahrenheit function and outputs result
+    //Takes userinput, converts it into fahrenheit by calling celsiustofahrenheit function and outputs result
     double userinput4;
     std::cout << "Enter temperature in Celsius: ";
     std::cin >> userinput4;
